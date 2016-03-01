@@ -1,0 +1,75 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+/* Write your additonal styles below */
+ html {
+	margin:0;
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	margin:0;
+
+}
+
+#container{
+	height: 100%;
+}
+
+#map_canvas {
+	width: 100%;
+	height: 100%;
+}
+
+
+#boxDiv{
+	
+	/*background-color: black; */
+	width: 400px;
+	height: 460px;
+	margin-top: 20px;
+	margin-left: 100px;
+	position: absolute;
+	z-index: 5;
+}
+
+
+#searchBox{
+	width: 300px;
+	margin-top: 10px;
+	margin-left: 45px;
+	position: relative;
+}
+
+.inputBox{
+	
+}
+
+#scrolBox{
+	border: 0px solid gray;
+	font-family: "Lucida Grande",Arial,Verdana,sans-serif;
+	font-size: 16px;
+	width:300px; 
+	height: 400px; 
+	overflow-y: scroll;
+	position: relative;
+	margin-left: 45px;
+	z-index: 6;
+}
+
+.checkbox-inline{
+	width: 300px;
+	border-radius: 7px;
+	padding: 5px;
+	padding-left: 25px;
+
+	border: 1px dashed gray;
+	position: relative;
+	background-color:  #ADD1FF;
+	z-index: 9;
+}
