@@ -9,4 +9,4 @@ In this assignment, the main goals are:
 
 
 P.S:
-- To run the code, go to waterloc folder then execute "grunt serve"
+-To run the code, go to waterloc folder then execute "grunt serve"
